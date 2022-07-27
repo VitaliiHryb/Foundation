@@ -1,0 +1,45 @@
+@import 'beakpoints.scss';
+@import 'variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page {
+  width: 100%; /* -- 320px -- */
+  overflow-x: hidden;
+
+  @include for-large-up {
+    width: 1400px;
+    margin: auto;
+
+    /*min-height: 100vh;
+    display: flex;
+    flex-direction: column;*/
+  }
+}
+
+.top-section {
+  background-color: #f3c6bd;
+}
+
+@import 'common.scss';
+@import 'about.scss';
+@import 'audience.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'tips.scss';
+@import 'order.scss';
+@import 'footer.scss';
