@@ -691,11 +691,14 @@ button {
 }
 
 .order {
+  display: flex;
+  flex-direction: column;
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
   .order {
+    flex-direction: row;
     padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
