@@ -157,6 +157,47 @@ button {
     padding-bottom: 71px;
   }
 }
+.audience__buttons {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__buttons {
+    padding-bottom: 71px;
+  }
+}
+.audience__button {
+  width: 160px;
+  margin-top: 12px;
+}
+@media screen and (max-width: 1399px) {
+  .audience__button {
+    width: 290px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__button {
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+  }
+}
+.audience__learn-more-btn {
+  background-color: #ffffff;
+  color: #3040c4;
+  border-radius: 2px;
+  border: none;
+  width: 158px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 15px;
+}
+@media screen and (max-width: 1399px) {
+  .audience__learn-more-btn {
+    width: 290px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .audience__cards-container {
     display: flex;
@@ -691,10 +732,12 @@ button {
 }
 .order__form {
   display: flex;
+  flex-direction: column;
 }
 @media screen and (min-width: 1400px) {
   .order__form {
     display: flex;
+    flex-direction: row;
     margin-top: 26px;
   }
 }

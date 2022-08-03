@@ -42,9 +42,11 @@
 
   &__form {
     display: flex;
+    flex-direction: column;
 
     @include for-large-up {
       display: flex;
+      flex-direction: row;
       margin-top: 26px;
     }
   }
