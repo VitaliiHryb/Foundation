@@ -122,15 +122,16 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
+
+    &:hover {
+      background-color: rgba(49, 65, 197, 1);
+      color: $text-color-white;
+    }
+
     @include for-large-up {
       margin: 0;
       margin-right: 30px;
       width: 262px;
-
-      &:hover {
-        background-color: rgba(49, 65, 197, 1);
-        color: $text-color-white;
-      }
     }
 
     &:last-child {
