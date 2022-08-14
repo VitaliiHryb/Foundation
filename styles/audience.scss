@@ -141,12 +141,19 @@
   }
 
   &__card-image {
-    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    @include for-large-up {
+      margin: auto;
+    }
   }
 
   &__card-title {
     font-weight: 700;
     font-size: 22px;
+    line-height: 28px;
     padding-bottom: 33px;
+    margin: 0;
   }
 }
