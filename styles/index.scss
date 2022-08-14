@@ -1,5 +1,15 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'audience.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'tips.scss';
+@import 'order.scss';
+@import 'footer.scss';
 
 * {
   box-sizing: border-box;
@@ -16,30 +26,15 @@ button {
 }
 
 .page {
-  width: 100%; /* -- 320px -- */
+  width: 100%;
   overflow-x: hidden;
 
   @include for-large-up {
     width: 1400px;
     margin: auto;
-
-    /*min-height: 100vh;
-    display: flex;
-    flex-direction: column;*/
   }
 }
 
 .top-section {
   background-color: #f3c6bd;
 }
-
-@import 'common.scss';
-@import 'about.scss';
-@import 'audience.scss';
-@import 'customers.scss';
-@import 'features.scss';
-@import 'header.scss';
-@import 'headline.scss';
-@import 'tips.scss';
-@import 'order.scss';
-@import 'footer.scss';

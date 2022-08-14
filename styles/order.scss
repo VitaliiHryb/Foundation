@@ -34,6 +34,10 @@
     line-height: 40px;
     letter-spacing: -0.25px;
     margin-top: 40px;
+
+    @include for-large-up {
+      text-align: start;
+    }
   }
 
   &__text {
@@ -67,6 +71,7 @@
 
     @include for-large-up {
       margin-top: 0;
+      width: 385px;
     }
 
     &::placeholder {
@@ -76,14 +81,12 @@
 
   &__button {
     margin-top: 12px;
-
-    @include for-large-down {
-      width: 100%;
-    }
+    width: 100%;
 
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
+      width: 160px;
       flex-shrink: 0;
     }
   }

@@ -1,13 +1,13 @@
 .features {
-  display: flex;
+  display: none;
   position: relative;
 
   /*--- + ---*/
   margin-bottom: 103px;
 
-  @include for-large-down {
+  @include for-large-up {
     /*border: none;*/
-    display: none;
+    display: flex;
   }
 
   &__content {

@@ -1,7 +1,11 @@
 .footer {
-  margin-top: auto;
   display: flex;
+  margin-top: auto;
   flex-direction: column;
+
+  @include for-large-up {
+    display: flex;
+  }
 
   &__description {
     display: none;
@@ -29,8 +33,10 @@
   }
 
   .logo {
-    @include for-large-down {
-      display: none;
+    display: none;
+
+    @include for-large-up {
+      display: flex;
     }
   }
 }
@@ -52,12 +58,6 @@
     flex-direction: row;
   }
 }
-/*
-.footer .footer-navigation {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}*/
 
 .downloads {
   margin: 25px 15px 0 15px;
@@ -84,7 +84,9 @@
   @include for-large-up {
     margin-top: 60px;
     margin-left: auto;
+    margin-right: 0;
     flex-direction: row;
+    width: 265px;
   }
 
   &__colum {
@@ -120,8 +122,8 @@
 }
 
 .footer-links {
-  margin-left: 15px;
   display: flex;
+  margin-left: 15px;
   flex-direction: column;
 
   @include for-large-up {
@@ -151,6 +153,7 @@
 }
 
 .social-links {
+  // display: flex;
   margin-top: 30px;
   margin-bottom: 23px;
 

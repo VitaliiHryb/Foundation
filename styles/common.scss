@@ -7,13 +7,6 @@
   font-size: 18px;
   border-radius: 2px;
   border: none;
-
-  /*
-  &_seccondary {
-    color: $text-color-black;
-    background-color: $color-white;
-  }
-  */
 }
 
 .hide_desctop {
@@ -22,8 +15,8 @@
   }
 }
 
-.hide_mobile {
-  @include for-large-down {
-    display: none;
-  }
-}
+// .hide_mobile {
+//   @include for-large-down {
+//     display: none;
+//   }
+// }
