@@ -28,6 +28,7 @@ button {
 .page {
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 
   @include for-large-up {
     width: 1400px;
