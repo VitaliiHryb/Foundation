@@ -127,6 +127,14 @@
     line-height: 28px;
     color: #2b292d;
     margin: 0;
+
+    &_mobile {
+      margin-top: 30px;
+
+      @include for-large-up {
+        margin-top: 0;
+      }
+    }
   }
 
   &__list {

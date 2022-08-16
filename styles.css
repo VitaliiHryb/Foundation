@@ -890,6 +890,14 @@
   color: #2b292d;
   margin: 0;
 }
+.nav-links__title_mobile {
+  margin-top: 30px;
+}
+@media screen and (min-width: 1400px) {
+  .nav-links__title_mobile {
+    margin-top: 0;
+  }
+}
 .nav-links__list {
   list-style-type: none;
   font-size: 18px;
