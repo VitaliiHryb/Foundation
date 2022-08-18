@@ -102,10 +102,13 @@
 
   @include for-large-up {
     margin-top: 60px;
-    margin-left: auto;
+    margin-left: 126px;
     margin-right: 0;
     flex-direction: row;
-    width: 265px;
+    // width: 265px;
+    &:last-child {
+      margin-left: 0;
+    }
   }
 
   &__colum {
@@ -114,6 +117,7 @@
     @include for-large-up {
       margin-right: 29px;
       margin-top: 0;
+      width: 265px;
     }
   }
 }

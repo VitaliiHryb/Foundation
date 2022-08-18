@@ -391,6 +391,7 @@
 @media screen and (min-width: 1400px) {
   .header .logo__description {
     display: block;
+    font-weight: 400;
   }
 }
 
@@ -864,10 +865,12 @@
 @media screen and (min-width: 1400px) {
   .additional-navigation {
     margin-top: 60px;
-    margin-left: auto;
+    margin-left: 126px;
     margin-right: 0;
     flex-direction: row;
-    width: 265px;
+  }
+  .additional-navigation:last-child {
+    margin-left: 0;
   }
 }
 .additional-navigation__colum {
@@ -877,6 +880,7 @@
   .additional-navigation__colum {
     margin-right: 29px;
     margin-top: 0;
+    width: 265px;
   }
 }
 
@@ -1022,6 +1026,10 @@ button {
     width: 1400px;
     margin: auto;
   }
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .top-section {
