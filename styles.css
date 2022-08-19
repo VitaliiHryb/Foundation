@@ -796,13 +796,13 @@
 .footer .logo {
   display: none;
 }
+.footer .logo__description {
+  font-weight: 400;
+}
 @media screen and (min-width: 1400px) {
   .footer .logo {
     display: flex;
   }
-}
-.footer .logo__description {
-  font-weight: 400;
 }
 
 .hide_desctop {
@@ -993,11 +993,14 @@
   line-height: 25px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .logo-vertical__description {
   font-size: 18px;
+  font-weight: 400;
   line-height: 25px;
   text-align: center;
+  margin: 0;
   color: rgba(43, 41, 45, 0.6);
 }
 .logo-vertical__imgage {
