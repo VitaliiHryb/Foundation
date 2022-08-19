@@ -801,6 +801,9 @@
     display: flex;
   }
 }
+.footer .logo__description {
+  font-weight: 400;
+}
 
 .hide_desctop {
   display: block;

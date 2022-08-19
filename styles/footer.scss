@@ -40,6 +40,10 @@
     @include for-large-up {
       display: flex;
     }
+
+    &__description {
+      font-weight: 400;
+    }
   }
 }
 
